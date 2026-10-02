@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body {
+  background: linear-gradient(135deg, #f5f0ff 0%, #ede9fe 45%, #fae8ff 100%);
+  overflow-x: hidden;
+  font-family: 'Quicksand', ui-rounded, system-ui, sans-serif;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee { animation: marquee 18s linear infinite; }
+
+section { scroll-margin-top: 80px; }
