@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hayman-oo-portfolio.netlify.app/sitemap.xml
